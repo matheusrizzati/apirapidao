@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+    -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #182BD1;
+    margin-bottom: 60px;
+}
+
+.container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #182BD1;
+    border-width: 2px;
+}
+
+.container span{
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    /* color: #358b33; */
+    font-size: 2rem;
+}   
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 12px;
+}
+
+form input{
+    margin-bottom: 30px;
+    width: calc(100%-20px);
+    height: 35px;
+    border-style: solid;
+    border: 1;
+    border-radius: 8px;
+    padding-left: 20px;
+    border-color: #182BD150;
+    border-width: 1px;
+    background-color: #f5f5f5;
+    color: #1523a3;
+}
+
+form input:focus{
+    border-width: 2px;
+    outline: none;
+    border-color: #182BD180;
+    color: #1523a3;
+}
+
+#createConsulta{
+    width: calc(100% + 50px);
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: -2px;
+    background-color: #182BD1;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600px;
+}
+
+@media (max-width: 600px){
+.container{
+    width: 320px;
+}
+}

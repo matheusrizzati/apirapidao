@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemoteSUS: agilizando sua saúde</title>
+    <link rel="stylesheet" href="./src/css/singup.css">
+
+    <link rel="preconnect" 
+    href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect"
+    href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap"> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>
+                RemoteSUS
+            </h1>
+            <h2>
+                agilizando sua saúde
+            </h2>
+            <form>
+                <div>
+                    <input type="text" id="personName">
+                    <label>Nome</label>
+                </div>
+                <div>
+                    <input type="text" id="cpf">
+                    <label>CPF</label>
+                </div>
+                <div>
+                    <input type="date" id="birthDate">
+                    <label>Data de Nascimento</label>
+                </div>
+                <div>
+                    <input type="text" id="phone">
+                    <label>Telefone</label>
+                </div>
+                <div>
+                    <input type="password" id="password">
+                    <label>Senha</label>
+                </div>
+                <div>
+                    <input type="password" id="confirmPassword">
+                    <label>Confirmar Senha</label>
+                </div>
+            </form>
+            <span id="mensage">Mensagem aviso</span>
+            <input type="button" value="Registrar!" id="singupButton">
+        </div>
+    </div>
+    <script src="./src/scripts/signup.js"></script>
+</body>
+
+</html>
